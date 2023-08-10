@@ -28,7 +28,14 @@ Run the script to load, preprocess, train the model, and calculate accuracy.
 View the accuracy scores on the console to evaluate model performance.
 
 **Task 2 **
+
+
+
 Introduction
+
+
+
+
 This repository contains code for a machine learning project that predicts the rating of a movie based on features like genre, director, and actors. The goal is to analyze historical movie data and develop a model that accurately estimates the rating given to a movie by users or critics.
 
 Libraries Used
