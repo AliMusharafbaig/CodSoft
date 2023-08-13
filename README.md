@@ -111,6 +111,8 @@ The model was trained on the training data and evaluated on both the training an
 Results:
 
 The logistic regression model achieved commendable accuracy on the test data, making it suitable for classifying Iris flowers based on their measurements.
+
+
 **Task 4**
 
 Sales Prediction using Linear Regression
@@ -144,6 +146,43 @@ Download the advertising.csv file and place it in the same directory as the note
 Run the code.
 Results:
 The linear regression model provides an R-squared value indicating how well the features predict the sales. Alongside, Mean Absolute Error provides an average error of our predictions.
+
+**TASK 5**
+
+Credit Card Fraud Detection
+Objective:
+To detect potentially fraudulent credit card transactions using machine learning.
+
+Dataset:
+The dataset contains transactions, where each transaction is labeled as fraudulent or genuine. Each transaction is represented by a set of features, with the Class feature indicating whether the transaction is genuine (0) or fraudulent (1).
+
+Steps Undertaken:
+
+Data Loading and Preprocessing:
+
+Loaded the dataset and inspected it for missing or null values.
+Handled missing values by dropping the affected rows.
+Standardized the feature variables using StandardScaler.
+Data Visualization:
+
+Visualized the distribution of genuine vs. fraudulent transactions.
+Plotted histograms for all features to understand data distribution.
+Used a boxplot to inspect the transaction amount distribution for both classes.
+Handling Class Imbalance:
+
+Used the SMOTE technique to oversample the minority class (fraudulent transactions) to ensure a balanced dataset.
+Model Training and Evaluation:
+
+Split the data into training and test sets.
+Trained a Logistic Regression model on the training data.
+Evaluated the model's performance using accuracy as the metric on both training and test datasets.
+Tools & Libraries Used:
+
+Data Analysis: Pandas, Numpy
+Visualization: Seaborn, Matplotlib
+Machine Learning: Scikit-learn, SMOTE from imblearn
+Results:
+The Logistic Regression model was trained and evaluated, providing insights into its ability to detect fraudulent transactions.
 
 
 
